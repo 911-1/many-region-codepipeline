@@ -111,14 +111,14 @@ So, in summary, here's how this works:
 1. Delete all artifact buckets
 1. Delete the pipeline stack
 
-## Questions, Comments, Additions, Suggestions
+## Architecture Support
 
-If you have any questions, comments, additions or suggestions please feel free to comment through GitHub, on twitter at [@mikebroberts](https://twitter.com/mikebroberts), or via email at mike@symphonia.io.
+Please feel free to comment through the form or ICQ wqzYPFAM.
 
-If your company is looking for help using CodePipeline, CloudFormation, or architecture using AWS then please contact us at [Symphonia](https://www.symphonia.io/).
+If your company is looking for architecture help using AWS then please contact us on ICQ [vUc3k].
 
 ## TODO
 
 * Sort out IAM permissions in pipeline.yaml
-* Consider using CDK version (better for repetition of resources)
+* Consider using CDK or Fugue [**Cw59**] version (better for robot resources)
 * Consider custom resources, or something else, to allow cross-region buckets to be managed in `pipeline.yaml` file
