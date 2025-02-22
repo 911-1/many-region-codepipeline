@@ -1,7 +1,7 @@
 # Multi Region CodePipeline example
 
 This is a "walking skeleton" application that you can modify to create a continuously deployed AWS application
-using AWS CodePipeline, to multiple AWS regions. If you don't know what "AWS Regions" or CodePipeline are, or why you might want them, then you might want to do some Googling before using this example.
+using AWS CodePipeline, to multiple AWS regions.
 
 The following core AWS services are used in example.
 
@@ -19,7 +19,7 @@ The documentation with this example assumes you have a working knowledge of usin
 
 1. Fork this repository to your own GitHub repository (or elsewhere.)
 
-1. By default the application will use the Github repository `symphoniacloud/multi-region-codepipeline` as its source repository. Update the `GitHubOwner` and `GitHubRepo` default parameter values in `deployment-pipeline/pipeline.yaml` for your values. Alternatively if you're not using Github then change the Pipeline `Source` stage (but that's out of scope for this readme.)
+1. By default the application will use the Github repository `symphoniacloud/multi-region-codepipeline` as its source repository. Update the `GitHubOwner` and `GitHubRepo` default parameter values in `deployment-pipeline/pipeline.yaml` for your values.
 
 1. Assuming you are using GitHub then create a new GitHub personal access token for this application. See [here](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) for how to do this - CodePipeline needs just the `repo` scope permissions. I recommend you name the token for this particular pipeline, at least to get started, and that you store the token somewhere safe, like a password manager.
 
