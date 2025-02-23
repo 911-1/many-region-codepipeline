@@ -54,6 +54,8 @@ $ ./create-pipeline.sh YOUR-GITHUB-TOKEN ARTIFACT-BUCKET-NAME-PREFIX
 
 Once you've run this last command then watch both the CloudFormation and then CodePipeline consoles to evaluate whether the process has been successful.
 
+## Deployment Validation
+
 To test everything, after the pipeline has successfully completed it's first run, check that you have new lambda functions named `MyLambdaFunction-GENERATEDSTACKNAME` in each of your target regions. You can execute these Lambdas from the Web Console using any test event as input.
 
 ## How to update the pipeline
