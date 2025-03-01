@@ -17,7 +17,7 @@ The documentation with this example assumes you have a working knowledge of usin
 
 ## How to create the pipeline
 
-1. Fork this repository to your own GitHub repository (or elsewhere.)
+
 
 1. By default the application will use the Github repository `symphoniacloud/multi-region-codepipeline` as its source repository. Update the `GitHubOwner` and `GitHubRepo` default parameter values in `deployment-pipeline/pipeline.yaml` for your values.
 
